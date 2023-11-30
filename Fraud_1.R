@@ -13,7 +13,7 @@ library(dplyr)
 library(tidyverse)
 library(ggplot2)
 transactions<-read.csv("fraud.csv", header=TRUE, sep=",")
-
+ 
 # View the data
 head(transactions)
 
